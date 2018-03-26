@@ -21,3 +21,14 @@ function whileLoop(startHere) {
   return 'done';
   
 }
+
+
+// define function doWhileLoop use the maybeTrue() as the dondition and remove elements from teh array until the array is empty or until maybeTrue() returns false.
+
+function maybeTrue() {
+  return Math.random() >= 0.5;
+}
+
+function doWhileLoop() {
+  do { array.pop;  
+} while (array.length > 0 && maybeTrue());
